@@ -1,0 +1,84 @@
+Tentu. Berikut versi **revisi draft 2-21 sampai 2-25** yang sudah ditambahkan materi substantif ±200 kata. Tambahan ditandai dengan komentar di akhir, tetapi di dalam teks sudah menyatu. Anda bisa langsung copy-paste ke Word.
+
+---
+
+## HALAMAN 2-21 SAMPAI 2-25
+
+### 2-21. Jenis dan Cara Membuat Ground
+Pada antena yang di-ground-kan, kualitas sambungan ground sangat penting. Ground harus memiliki konduktivitas setinggi mungkin agar rugi-rugi ground kecil dan pantulan energi dari tanah menjadi efektif. Jika konduktivitas tanah rendah, sebagian daya pemancar akan terdisipasi sebagai panas di tanah sebelum sempat dipancarkan sebagai gelombang radio. Akibatnya efisiensi antena turun dan jangkauan komunikasi berkurang, terutama pada antena vertikal yang mengandalkan ground sebagai cermin pemantul.
+
+Sambungan ground dapat dibuat dengan beberapa cara, tergantung jenis instalasi dan rugi-rugi yang dapat ditoleransi:
+
+- Menancapkan satu atau beberapa **batang logam (ground rod)** ke tanah.
+- Menghubungkan ke **struktur logam** atau **pipa bawah tanah** yang sudah ada.
+- Dalam keadaan darurat, dapat menggunakan **bayonet** yang ditancapkan ke tanah.
+- Jika tanah berkonduktivitas rendah, tanah dapat diberi bahan yang mudah larut dan konduktif. Urutan preferensi: **natrium klorida (garam dapur), kalsium klorida, tembaga sulfat, magnesium sulfat, dan kalium nitrat**.
+
+**Peringatan:** bahan-bahan tersebut tidak boleh masuk ke sumber air minum.
+
+Untuk instalasi sederhana di lapangan, ground rod dapat dibuat dari pipa atau konduit. Sambungan antara kabel ground dan rod harus bersih dan resistansinya rendah. Bagian rod dibersihkan dengan dikerik atau diamplas, lalu dipasang **ground clamp** yang bersih. Kabel ground disolder atau dijepit, kemudian sambungan ditutup tape untuk mencegah oksidasi yang dapat menambah resistansi.
+
+### 2-22. Counterpoise
+Jika ground langsung tidak dapat digunakan karena tanah beresistansi tinggi atau sistem ground tertanam tidak praktis, dapat digunakan **counterpoise**. Counterpoise adalah kawat atau sistem kawat yang dipasang beberapa sentimeter di atas tanah dan **diisolasi dari tanah**. Fungsinya sebagai ground buatan yang membantu membentuk pola radiasi yang diperlukan.
+
+Perbedaan utama counterpoise dengan ground rod biasa adalah counterpoise tidak mengalirkan arus langsung ke tanah, melainkan membentuk bidang konduktif terisolasi yang meniru ground ideal. Counterpoise lebih praktis digunakan pada tanah berbatu, pasir, atau daerah yang sulit ditanam ground rod, serta pada instalasi darurat yang membutuhkan ground sementara.
+
+- Ukuran counterpoise sebaiknya **sama dengan atau lebih besar dari antena**.
+- Untuk antena vertikal, counterpoise dibuat dalam pola geometris sederhana; simetri sempurna tidak wajib.
+- Pada instalasi VHF di kendaraan, **atap logam kendaraan atau shelter** dapat berfungsi sebagai counterpoise.
+- Untuk antena VHF yang dipasang cukup tinggi, kadang digunakan counterpoise kecil dari **metal mesh**.
+
+(Sisipkan gambar **Figure 2-10. Wire Counterpoise** dari buku, hlm. 2-22, dengan keterangan: *Gambar 2.10 Contoh wire counterpoise.*)
+
+### 2-23. Ground Screen
+**Ground screen** adalah hamparan **metal mesh atau screen** yang cukup luas yang diletakkan di permukaan tanah di bawah antena. Ada dua keuntungan utama:
+
+1. **Mengurangi rugi-rugi penyerapan ground** saat antena dipasang di atas tanah yang konduktivitasnya buruk.
+2. **Tinggi antena dapat diatur lebih akurat**, dan **radiation resistance** antena dapat ditentukan lebih tepat.
+
+Ground screen sangat berguna pada tanah berbatu, berpasir, atau tanah kering yang sulit diperbaiki dengan ground rod. Dengan menutup permukaan tanah di bawah antena menggunakan mesh logam, ground screen menciptakan bidang konduktif buatan yang lebih stabil sehingga rugi-rugi tanah dapat ditekan dan pola radiasi antena menjadi lebih konsisten.
+
+### 2-24. Perhitungan Panjang Antena
+Panjang antena harus dibedakan antara **panjang fisik** dan **panjang elektris**. Keduanya tidak pernah persis sama. Penyebabnya adalah berkurangnya kecepatan gelombang pada antena dan efek kapasitif pada ujung antena (*end effect*). Faktor yang memengaruhi antara lain rasio diameter terhadap panjang antena serta efek kapasitif dari peralatan terminal seperti insulator atau klem.
+
+Untuk frekuensi **3–50 MHz**, digunakan koreksi **0,95** untuk menghitung panjang fisik antena setengah gelombang:
+
+\[
+\text{Panjang (meter)} = \frac{150 \times 0{,}95}{f_{\text{MHz}}} = \frac{142{,}50}{f_{\text{MHz}}}
+\]
+
+**Contoh:** antena dipole setengah gelombang pada frekuensi **7 MHz**:
+
+\[
+\text{Panjang} = \frac{142{,}50}{7} = 20{,}36 \text{ meter}
+\]
+
+### 2-25. Perhitungan Panjang Antena Long-Wire
+Untuk antena **long-wire** (satu gelombang atau lebih) yang dioperasikan pada harmonisa, digunakan rumus:
+
+\[
+\text{Panjang (meter)} = \frac{150(N - 0{,}05)}{f_{\text{MHz}}}
+\]
+
+dengan **N = jumlah setengah gelombang** dalam total panjang antena.
+
+**Contoh:** antena long-wire dengan **3 setengah gelombang pada 7 MHz**:
+
+\[
+\text{Panjang} = \frac{150(3 - 0{,}05)}{7} = \frac{150 \times 2{,}95}{7} = \frac{442{,}50}{7} = 63{,}2 \text{ meter}
+\]
+
+Perhatikan bahwa rumus long-wire menghasilkan panjang yang jauh lebih besar karena antena bekerja pada harmonisa ketiga (tiga setengah gelombang), bukan satu setengah gelombang seperti dipole biasa. Pemilihan rumus harus disesuaikan dengan jenis antena dan jumlah setengah gelombang yang diinginkan.
+
+(Sisipkan gambar **Figure 2-9. Quarter-Wave Antenna Connected to Ground** dari buku, hlm. 2-20, dengan keterangan: *Gambar 2.9 Antena seperempat gelombang yang dihubungkan ke ground dan image antenna.*)
+
+---
+
+**Tambahan substantif yang saya masukkan:**
+1. Penjelasan mengapa ground berkonduktivitas rendah menyebabkan daya terdisipasi sebagai panas (di 2-21).
+2. Perbedaan counterpoise vs ground rod serta kapan counterpoise lebih praktis (di 2-22).
+3. Contoh situasi ground screen pada tanah berbatu/pasir (di 2-23).
+4. Contoh perhitungan tambahan untuk dipole setengah gelombang pada 7 MHz (di 2-24).
+5. Penjelasan tambahan tentang perbedaan hasil rumus dipole vs long-wire (di 2-25).
+
+Dengan tambahan ini, jumlah kata draft naik sekitar **200–250 kata** dan isinya menjadi lebih seimbang dengan bagian lain di Word Anda. Silakan copy-paste ke Word dan sesuaikan penomoran gambar.

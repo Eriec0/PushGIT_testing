@@ -1,0 +1,88 @@
+{
+  "method": "Maximin LHS (scipy.stats.qmc)",
+  "n_samples": 60,
+  "n_candidates": 50,
+  "seed": 42,
+  "min_distance": 0.66868248069955,
+  "baseline": {
+    "Lp": 20.22,
+    "Wp": 26.33,
+    "Lu": 10.0,
+    "Wu": 10.5,
+    "gU": 0.6,
+    "PU": 0.0,
+    "LI": 6.15,
+    "LD": 3.0,
+    "WD": 3.0,
+    "gD": 0.3,
+    "PD": 0.0
+  },
+  "parameters": {
+    "Lp": {
+      "baseline": 20.22,
+      "lower": 18.0,
+      "upper": 22.0,
+      "unit": "mm"
+    },
+    "Wp": {
+      "baseline": 26.33,
+      "lower": 24.0,
+      "upper": 28.5,
+      "unit": "mm"
+    },
+    "Lu": {
+      "baseline": 10.0,
+      "lower": 7.0,
+      "upper": 13.0,
+      "unit": "mm"
+    },
+    "Wu": {
+      "baseline": 10.5,
+      "lower": 7.5,
+      "upper": 13.5,
+      "unit": "mm"
+    },
+    "gU": {
+      "baseline": 0.6,
+      "lower": 0.3,
+      "upper": 1.2,
+      "unit": "mm"
+    },
+    "PU": {
+      "baseline": 0.0,
+      "lower": -2.0,
+      "upper": 2.0,
+      "unit": "mm"
+    },
+    "LI": {
+      "baseline": 6.15,
+      "lower": 4.0,
+      "upper": 8.5,
+      "unit": "mm"
+    },
+    "LD": {
+      "baseline": 3.0,
+      "lower": 1.5,
+      "upper": 4.5,
+      "unit": "mm"
+    },
+    "WD": {
+      "baseline": 3.0,
+      "lower": 1.5,
+      "upper": 4.5,
+      "unit": "mm"
+    },
+    "gD": {
+      "baseline": 0.3,
+      "lower": 0.2,
+      "upper": 0.8,
+      "unit": "mm"
+    },
+    "PD": {
+      "baseline": 0.0,
+      "lower": -3.0,
+      "upper": 3.0,
+      "unit": "mm"
+    }
+  }
+}
